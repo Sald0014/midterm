@@ -1,0 +1,112 @@
+#headerbackground { width: 100%;}
+
+#tittle1 
+
+{ text-align: center; padding: 12%; padding-left: 22%;
+font-size:75px;
+color: rgb(255, 255, 255);
+font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: lighter; position:absolute;
+
+
+/* Position absolute so the tittle 1 appears on top of the header background */
+
+}
+
+/* background color */
+
+body {background-color:  #aad4cf;
+padding-left: 10%
+; padding-right: 10%; margin: 0%; font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top:auto;
+
+
+}
+
+/* used a different color as the background to make the website look more alike to the original */
+ 
+main { background-color: #DFF2EF; padding-bottom: 0.1px;}
+
+/* NAVBAR */
+
+#navbar {
+
+    list-style-type: none;
+    padding-bottom: 2%;
+    background-color: #DFF2EF; 
+    margin-top: 0%;
+
+  }
+
+  /* Used "floar: left " to make the navbar options appear next to each other instead of below of each other  */
+  
+  #home, #story, #contact {
+    
+    float: left;
+    ;text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 12px 150px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+ }
+
+/* I only used the ids home and story here, since I wanted to put borders between the navbar */
+
+#home, #story { border-right: 1px solid rgb(0, 0, 0) }
+
+
+/* Used "float: left" so the image wraps around the text. I used verything else to try to make everything look as close as possible to the original website  */
+
+
+
+#tittle2 {text-align: left; font-size: 45px;padding-left: 2%; font-weight: lighter; height: 20px;font-size: 30px; }
+
+#paragraph1 {text-align: left; height: 46%px; font-size: 18px; padding-left: 2%; padding-right: 2% ;}
+
+#starfish { float: left; text-align: left;  }  img {width: 300px; object-fit: fill; }
+
+
+
+
+
+#tittle3 {text-align: left; padding-left: 2%; font-weight: lighter; font-size: 30px; }
+
+#facts { text-align: left; padding-left: 3.5%; }
+
+
+
+/* FORM */
+
+
+#tittle4 {text-align: left; padding-left: 2%; font-weight: lighter; font-size: 30px;}
+
+#wouldyou {font-weight: lighter;}
+
+#field { margin: 2%; height: 30%; padding: 2%;}
+
+#name {margin-top: 2%;}
+
+#your_name {padding: 0.5%; padding-right: 85%; margin-bottom: 1%; margin-top: 1%;}
+
+#your_email {padding: 0.5%; padding-right: 85%;margin-bottom: 1%; margin-top: 1%;}
+
+#your_message {padding: 4%; padding-right: 81.5%;margin-bottom: 1%; margin-top: 1%;}
+
+
+
+#send {margin-top: 20px; padding: 0.7%; background-color: #DFF2EF;}
+nav {
+    position:relative; text-align: center;
+
+}
+
+
+/* changed the background color so it matches the main body */
+
+
+footer {background-color: #DFF2EF; text-align: right; padding: 2%; padding-bottom: 3%;}
+
+
+
+
+  

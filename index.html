@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<!-- Header of the website, added a img tag to put the image, then I added the heading1 tag so in css I add other properties so it appears on top of the image -->
+
+<header id="header">      
+
+    <h1 id="tittle1">Lone Starfish</h1> 
+
+<img src= "images/lone-starfish-wide.jpg" id="headerbackground">
+
+</header>
+
+<body>
+
+
+<!-- All of the content is on the main tag, that way I was able to put different background colors on css-->
+
+   
+   <main> 
+
+
+
+<!-- I used the nav tag to put a navbar, each of the items has a id tag so I can edit in on css -->
+
+    <nav class="navbar">
+
+        <ul id="navbar">
+            <li ><a  id="home" href="#home">HOME</a></li>
+            <li ><a id="story" href="#story">STORY</a></li>  
+            <li><a id="contact" href="#contact">CONTACT</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <a>
+        
+        <h2 id="tittle2">Life of a Starfish</h2>
+        
+        <figure id="starfish"> 
+
+        <img src="images/lone-starfish.jpg"
+
+        alt="starfish">
+    
+        </figure>
+        
+        <p 
+        
+        id="paragraph1">Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
+   
+        </p>
+
+    </a>
+
+
+    <!-- I used the li tag since the order in the facts wasn't important -->
+
+<a>
+
+
+    <h2 id="tittle3"> Facts about Starfish</h2>
+
+    <ul id="facts">
+
+    <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
+    <li> Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+    <li> Herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
+    <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+
+    </ul>  
+
+</a>
+
+<!--  I used the br tag so the text boxes appear below the label instead of at the side of the label, I also used the type "text" so I can get text boxes to fill the form -->
+
+<a >
+
+    <h2  id="tittle4">Contact to learn more</h1> 
+
+        <fieldset id="field">
+
+        <label id= "name" for="your_name">Your Name</label><br>
+        <input id="your_name" type="text" name="your_name" required>
+
+
+        <br>
+        <label id="email" for="your_email">Your Email</label>
+        <br>
+        
+        <input id="your_email" type="text" name="your_email" required>
+
+
+        <br>  
+        <label id="message" for="your_message">Your Message</label>
+        <br>
+
+        <input id="your_message" type="text" name="your_message" required>
+
+<!-- Here I used the br tag to achieve the same as above and each input has a label.  used the imput type radio, that way you can answer the question by clicking the circle. Then on the imput with id "send" i used the type submit, that way it works as a buttom to send all of the information of the form   -->
+        
+
+        <h3 id="wouldyou">Would you like to visit the starfish?</h3>
+
+        <label for="yes">Yes</label>
+        <input type="radio" name="yes" id="yes" value="yes">
+
+        <label for="no">No</label>
+        <input type="radio" name="no" id="Some" value="no">
+
+        <label for="maybe">Maybe</label>
+        <input type="radio" name="maybe" id="maybe" value="maybe">
+
+        <br>
+        <input id="send" type="submit" value="SEND"> 
+        </br>
+
+        </fieldset>
+    
+</a>
+
+</main>
+
+</body>
+
+
+<!-- footer with an id tag to edit the background on css-->
+
+<footer id="copyright">
+        ©Lone Starfish.
+    </footer>
+
+</html>
